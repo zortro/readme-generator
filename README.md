@@ -46,8 +46,8 @@ ReadMe Generator was build with the following frameworks and libraries:
 ## Usage
 
 To use ReadMe Generator, simply click the 'Generate ReadMe' button.
-<br>
 [img]
+<br>
 Upon clicking the 'Generate ReadMe' button, you will be prompted a series of questions. Follow the prompts and answer them accordingly.
 [img]
 <br>
