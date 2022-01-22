@@ -2,6 +2,7 @@
 # ReadMe Generator
 
 <!-- project shields -->
+<a name="shields"></a>
 [shields](#shields)
 
 <!-- project logo -->
@@ -14,12 +15,13 @@
 - [Title](#title)
 - [Shields](#shields)
 - [Logo](#img)
-- Table of contents[table-of-contents](#Table-of-Contents)
-- About Project
-- Built With
-- Getting Started
+- [table-of-contents](#table-of-contents)
+- [About Project](#about-proj)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
 
 <!-- aboout project -->
+<a name="about-proj"></a>
 ## About ReadMe Generator
 
 ReadMe Generator is a simple and easy to use readme generator. With ReadMe Generator you can say goodbye to the task of writing your own readme!
@@ -27,6 +29,7 @@ ReadMe Generator features:
     LIST FEATURES
 
 <!-- built with -->
+<a name="built-with"></a>
 ### Built With
 ReadMe Generator was build with the following frameworks and libraries:
 NodeJS
@@ -38,4 +41,5 @@ NPM
 NPM Inquirer
 
 <!-- getting started -->
+<a name="getting-started"></a>
 ## Getting Started
