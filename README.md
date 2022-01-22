@@ -16,10 +16,10 @@
 - [Title](#title)
 - [Shields](#shields)
 - [Logo](#img)
-- [table-of-contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 - [About Project](#about-proj)
 - [Built With](#built-with)
-- [Getting Started](#getting-started)
+- [Usage](#Usage)
 
 <!-- aboout project -->
 <a name="about-proj"></a>
@@ -41,6 +41,14 @@ ReadMe Generator was build with the following frameworks and libraries:
 - NPM
 - NPM Inquirer
 
-<!-- getting started -->
-<a name="getting-started"></a>
-## Getting Started
+<!-- Usage -->
+<a name="Usage"></a>
+## Usage
+
+To use ReadMe Generator, simply click the 'Generate ReadMe' button.
+[img]
+Upon clicking the 'Generate ReadMe' button, you will be prompted a series of questions. Follow the prompts and answer them accordingly.
+[img]
+Upon answering the last question your readme will generate, the text will populate the README CONTENT
+[img]
+if you wish to download your readme, you can click the 'Download' button to save the file to your computer.
