@@ -7,8 +7,8 @@
 
 <!-- project logo -->
 <a name="logo"></a>
-![img](/Assets/img/ReadMeScreenCap.png)
 ## logo
+![img](/Assets/img/ReadMeScreenCap.png)
 
 <!-- toc -->
 <a name="table-of-contents"></a>
