@@ -15,7 +15,7 @@
 ## Table of Contents
 - [Title](#title)
 - [Shields](#shields)
-- [Logo](#img)
+- [Logo](#logo)
 - [Table of Contents](#table-of-contents)
 - [About Project](#about-proj)
 - [Built With](#built-with)
