@@ -1,16 +1,19 @@
 # ReadMe Generator
+
 <!-- project shields -->
 [shields](#shields)
+
 <!-- project logo -->
 [img](#img)
 ![img](/Assets/img/ReadMeScreenCap.png)
+
 <!-- toc -->
+<a name="table-of-contents"></a>
 ## Table of Contents
-[table-of-contents](#table-of-contents)
-- [Title](https://github.com/zortro/readme-generator#Table-of-Contents)
-- [Shields](https://github.com/zortro/readme-generator#shields)
-- [Logo](https://github.com/zortro/readme-generator#img)
-- Table of contents[table-of-contents](https://github.com/zortro/readme-generator#Table-of-Contents)
+- [Title](#Table-of-Contents)
+- [Shields](#shields)
+- [Logo](#img)
+- Table of contents[table-of-contents](#Table-of-Contents)
 - About Project
 - Built With
 - Getting Started
