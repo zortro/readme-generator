@@ -33,13 +33,13 @@ ReadMe Generator features:
 <a name="built-with"></a>
 ### Built With
 ReadMe Generator was build with the following frameworks and libraries:
-NodeJS
-Javascript
-JQuery
-HTML
-CSS
-NPM
-NPM Inquirer
+- NodeJS
+- Javascript
+- JQuery
+- HTML
+- CSS
+- NPM
+- NPM Inquirer
 
 <!-- getting started -->
 <a name="getting-started"></a>
