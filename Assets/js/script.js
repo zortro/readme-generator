@@ -24,16 +24,7 @@ inquirer
     {
         type: 'input',
         message: 'Please enter the url for your logo image:',
-        name: 'imgURL',
-        validate: (value) =>{
-            if(value) {
-                console.log('input!')
-                return true
-            } else {
-                console.log('no input!')
-                return false
-            }
-        }              
+        name: 'imgURL',       
     },
     {
         type: 'input',
