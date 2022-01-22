@@ -3,11 +3,12 @@
 
 <!-- project shields -->
 <a name="shields"></a>
-[shields](#shields)
+## Shields
 
 <!-- project logo -->
-[img](#img)
+<a name="logo"></a>
 ![img](/Assets/img/ReadMeScreenCap.png)
+## logo
 
 <!-- toc -->
 <a name="table-of-contents"></a>
