@@ -4,7 +4,7 @@
 <!-- project logo -->
 
 <!-- toc -->
-# Table of Contents
+## Table of Contents
 Title
 Shields
 Logo
@@ -14,13 +14,13 @@ Built With
 Getting Started
 
 <!-- aboout project -->
-# About ReadMe Generator
+## About ReadMe Generator
 ReadMe Generator is a simple and easy to use readme generator. With ReadMe Generator you can say goodbye to the task of writing your own readme!
 ReadMe Generator features:
     LIST FEATURES
 
 <!-- built with -->
-# Built With
+### Built With
 ReadMe Generator was build with the following frameworks and libraries:
 NodeJS
 Javascript
@@ -31,4 +31,4 @@ NPM
 NPM Inquirer
 
 <!-- getting started -->
-# Getting Started
+## Getting Started
