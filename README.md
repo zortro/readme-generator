@@ -7,10 +7,10 @@
 <!-- toc -->
 ## Table of Contents
 [table-of-contents](#table-of-contents)
-- Title[title](https://github.com/readme-generator#Table-of-Contents)
-- Shields[shields](https://github.com/readme-generator#shields)
-- Logo[img](https://github.com/readme-generator#img)
-- Table of contents[table-of-contents](https://github.com/readme-generator#Table-of-Contents)
+- [Title](https://github.com/zortro/readme-generator#Table-of-Contents)
+- [Shields](https://github.com/zortro/readme-generator#shields)
+- [Logo](https://github.com/zortro/readme-generator#img)
+- Table of contents[table-of-contents](https://github.com/zortro/readme-generator#Table-of-Contents)
 - About Project
 - Built With
 - Getting Started
