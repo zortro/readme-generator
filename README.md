@@ -2,7 +2,7 @@
 <!-- project shields -->
 
 <!-- project logo -->
-
+![This is an image](/Assets/img/ReadMeScreenCap.png)
 <!-- toc -->
 ## Table of Contents
 Title
