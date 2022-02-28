@@ -1,6 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
+const badgeArr = []
+
 inquirer
     .prompt([
 /* NAME */
@@ -20,7 +22,15 @@ inquirer
     {
         type: 'checkbox',
         message: 'What licenses does this project use? (This is non-functional at the moment)',
-        choices: ['facebook ', 'twitter ', 'linkedin '],
+        choices: [
+            'Apache',
+            'Academic',
+            'GNU',
+            'ISC',
+            'MIT',
+            'Mozilla',
+            'Open'
+        ],
         name: 'license',
 
     },
@@ -117,50 +127,27 @@ inquirer
     }
     ])
     .then(response => {
-//name
-    let name =
-    response.name
-//LicenseShield
-    let licenseShield =
-    JSON.stringify(`${response.license} ,`)
-//description
-    let desc =
-    response.description
-//installation
-    let install =
-    response.installation
-//usage
-    let use =
-    response.usage
-//testing
-    let test =
-    response.testing
-//License
-    let license = response.license
-//contribution
-    let contribute =
-    response.contribution
-//GitHub
-    let gitHub =
-    response.gitHub
-//eMail
-    let eMail = 
-    response.eMail
+        badgeArr.push(response.license)
+        let shield = ''
+        badgeArr.forEach(ico => {
+            let shield = ico
+            console.log(ico)
+        })
 //generated readme
     const readme = 
 `<!-- proj name -->
 <a name="title"></a>
-# ${name}
+# ${response.name}
 
 <!-- project shields -->
-${licenseShield}
+${shield}
 
 <!-- toc -->
 <a name="table-of-contents"></a>
 ## Table of Contents
 
-- [${name}](#title)
-- [About ${name}](#about-proj)
+- [${response.name}](#title)
+- [About ${response.name}](#about-proj)
 - [Getting Started](#getting-started)
 - [Usage](#Usage)
 - [Testing](#testing)
@@ -170,61 +157,56 @@ ${licenseShield}
 
 <!-- about project -->
 <a name="about-proj"></a>
-## About ${name}
+## About ${response.name}
 
-${desc}
+${response.description}
 
 <!-- Getting Started -->
 <a name="getting-started"></a>
 ## Getting Started
-This is how you can get started using ${name} locally. Begin by following these instructions.
+This is how you can get started using ${response.name} locally. Begin by following these instructions.
 ### Installation
 
-${install}
+${response.installation}
 
 <!-- Usage -->
 <a name="Usage"></a>
 ## Usage
 
-${use}
+${response.usage}
 
 <!-- Testing -->
 <a name="testing"></a>
 ## Testing
 
-${test}
+${response.testing}
 
 <!-- Contributing -->
 <a name="Contributing"></a>
 ## Contributing
 
-${contribute}
+${response.contribute}
 
 script should autogenerate this text depending on user choice
 
 <!-- License -->
 <a name="License"></a>
+${shield}
 ## License
 
-${license}
+${response.license}
 
 <!-- Contact Me -->
 <a name="contact-me"></a>
 ## Contact Me
-- ${gitHub}
-- ${eMail}
+- [${response.gitHub}](https://github.com/${response.gitHub})
+- ${response.eMail}
 
 This readme file was generated using [ReadMe Generator](https://github.com/zortro/readme-generator/)`
 
-        fs.appendFile(`../ReadMe/${response.name}-ReadMe.md`, readme, (err, data) => {
+        fs.writeFile(`../ReadMe/${response.name}-ReadMe.md`, readme, (err, data) => {
             if (err) {
                 throw err
-            } else if (response.license === 'facebook') {
-                return ('- facebook')
-            } else if (response.license === 'twitter') {
-                return ('- twitter')
-            } else if (response.license === 'linkedin') {
-                return ('- linkedin')
             }
         })
     })

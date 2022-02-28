@@ -3,7 +3,6 @@
 # ReadMe Generator
 
 <!-- project shields -->
-" ," EDIT: the current state of the shield generation is non functional
 
 <!-- toc -->
 <a name="table-of-contents"></a>
@@ -41,6 +40,8 @@ To use ReadMe Generator open a terminal window in './Assets/js/'. In the termina
 <!-- Testing -->
 <a name="testing"></a>
 ## Testing
+Demonstration of ReadMe Generator in use: <br>
+![gif](./Assets/demo/scriptJsDemo.gif)
 
 To test ReadMe Generator follow the installation process under the [getting started](#getting-started) section. From there open a terminal in './Assets/js/' and run node script.js. Your generated ReadMe will populate './Assets/js/ReadMe/' If any errors do occur the console will return an error. If an error is received please create an issue in the GitHub Repository
 
@@ -49,14 +50,6 @@ To test ReadMe Generator follow the installation process under the [getting star
 ## Contributing
 
 To contribute to this project please submit all issues and requests to issues.
-
-script should autogenerate this text depending on user choice
-
-<!-- License -->
-<a name="License"></a>
-## License
-
-EDIT: the current state of the license generation is non functional.
 
 <!-- Contact Me -->
 <a name="contact-me"></a>
